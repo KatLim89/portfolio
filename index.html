@@ -85,36 +85,73 @@
         <div>
           <i class="fa-solid fa-crop"></i>
           <h2>UI / UX Design</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec pretium vulputate sapien nec.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Donec pretium vulputate sapien nec.</p>
           <a href="#">Learn more</a>
         </div>
         <div>
           <i class="fa-solid fa-code"></i>
           <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec pretium vulputate sapien nec.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Donec pretium vulputate sapien nec.</p>
           <a href="#">Learn more</a>
         </div>
         <div>
           <i class="fa-brands fa-app-store"></i>
           <h2>App Design</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec pretium vulputate sapien nec.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Donec pretium vulputate sapien nec.</p>
           <a href="#">Learn more</a>
         </div>
       </div>
     </div>
   </div>
+  <!----Portfolio---->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work1.png">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>The app connects you to people all around the world. Download it from Play Store / App Store.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work2.png">
+        <div class="layer">
+          <h3>Music Streaming App</h3>
+          <p>You can listen to your favourite artists with this app. Download it from Play Store / App Store.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work3.png">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>Shop your groceries from the comfort of your home with this app. Download it from Play Store / App Store.</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
 
 
+  
   <script>
 
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
 
     function opentab(tabname) {
-      for(tablink of tablinks) {
+      for (tablink of tablinks) {
         tablink.classList.remove("active-link");
       }
-      for(tabcontent of tabcontents) {
+      for (tabcontent of tabcontents) {
         tabcontent.classList.remove("active-tab");
       }
       event.currentTarget.classList.add("active-link");
