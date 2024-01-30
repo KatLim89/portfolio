@@ -105,6 +105,16 @@ nav ul li a:hover::after {
   flex-basis: 60%;
 }
 
+.about-col-2 a {
+  text-decoration: none;
+  color: #cc6600;
+}
+
+.about-col-2 a:hover {
+  background-color: #ffe6cc;
+  cursor: pointer;
+}
+
 .sub-title {
   font-size: 60px;
   font-weight: 600;
@@ -435,7 +445,7 @@ nav .fas {
   .about-col-2 {
     font-size: 14px;
   }
-
+  
   .tab-links {
     font-size: 16px;
     margin-right: 20px;
